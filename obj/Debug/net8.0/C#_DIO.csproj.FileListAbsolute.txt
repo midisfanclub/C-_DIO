@@ -1,0 +1,14 @@
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.AssemblyInfoInputs.cache
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.AssemblyInfo.cs
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Desktop\programação\C#_DIO\bin\Debug\net8.0\C#_DIO.exe
+C:\Users\Alice\Desktop\programação\C#_DIO\bin\Debug\net8.0\C#_DIO.deps.json
+C:\Users\Alice\Desktop\programação\C#_DIO\bin\Debug\net8.0\C#_DIO.runtimeconfig.json
+C:\Users\Alice\Desktop\programação\C#_DIO\bin\Debug\net8.0\C#_DIO.dll
+C:\Users\Alice\Desktop\programação\C#_DIO\bin\Debug\net8.0\C#_DIO.pdb
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.dll
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\refint\C#_DIO.dll
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.pdb
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.genruntimeconfig.cache
+C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\ref\C#_DIO.dll
