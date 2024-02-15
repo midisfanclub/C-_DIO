@@ -12,3 +12,4 @@ C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\refint\C#_DIO.dll
 C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.pdb
 C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.genruntimeconfig.cache
 C:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\ref\C#_DIO.dll
+c:\Users\Alice\Desktop\programação\C#_DIO\obj\Debug\net8.0\C#_DIO.sourcelink.json
