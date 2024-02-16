@@ -1,15 +1,39 @@
-﻿using C__DIO;
-
+﻿using System.Collections;
+using C__DIO;
 
 int numero = 5;
+int contador = 1;
 
-
-
-for (int contador = 0; contador <= 10; contador++)
+while (contador <= 10)
 {
-Console.WriteLine($"{numero} x {contador} = {numero * contador} ");
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
 
+    if (contador == 6)
+    {
+        break;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+
+
+
+// for (int contador = 0; contador <= 10; contador++)
+// {
+// Console.WriteLine($"{numero} x {contador} = {numero * contador} ");
+
+// }
 
 
 
