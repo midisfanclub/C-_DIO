@@ -4,21 +4,54 @@ using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using C__DIO;
 
-int[] array_inteiros = new int[3];
+List<string> listaString = new List<string>();
 
-array_inteiros[0] = 72;
-array_inteiros [1] = 64;
-array_inteiros [2] = 50;
-
-
-Array.Resize(ref array_inteiros, array_inteiros.Length * 2);
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
 
 Console.WriteLine("percorrendo o array com o for:");
-for (int contador = 0; contador < array_inteiros.Length; contador ++)
+for (int contador = 0; contador < listaString.Count; contador ++)
 {
-    Console.WriteLine($"Posição N° {contador} - {array_inteiros[contador]}");
+    Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
 }
 
+Console.WriteLine("percorrendo o array com foreach: ");
+foreach (string item in listaString)
+{
+    int contador_foreach = 0;
+    Console.WriteLine($"Posição N° {contador_foreach} - {item}");
+    contador_foreach ++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int[] array_inteiros = new int[3];
+
+// array_inteiros[0] = 72;
+// array_inteiros [1] = 64;
+// array_inteiros [2] = 50;
+
+// int[] array_dobrado = new int [array_inteiros.Length * 2];
+// Array.Copy(array_inteiros, array_dobrado, array_inteiros.Length);
+
+// //Array.Resize(ref array_inteiros, array_inteiros.Length * 2);
+
+// Console.WriteLine("percorrendo o array com o for:");
+// for (int contador = 0; contador < array_inteiros.Length; contador ++)
+// {
+//     Console.WriteLine($"Posição N° {contador} - {array_inteiros[contador]}");
+// }
 
 
 // Console.WriteLine("percorrendo o array com foreach: ");
@@ -29,16 +62,6 @@ for (int contador = 0; contador < array_inteiros.Length; contador ++)
 //     Console.WriteLine($"Posição N° {contador_foreach} - {valor}");
 //     contador_foreach ++;
 // }
-
-
-
-
-
-
-
-
-
-
 
 
 
