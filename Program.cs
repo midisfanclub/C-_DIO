@@ -4,25 +4,44 @@ using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using C__DIO;
 
-List<string> listaString = new List<string>();
+
+List<string> listaString = new List<string>(); //() sem capacidade maxima
 
 listaString.Add("SP");
 listaString.Add("BA");
 listaString.Add("MG");
+listaString.Add("RJ");
 
-Console.WriteLine("percorrendo o array com o for:");
-for (int contador = 0; contador < listaString.Count; contador ++)
-{
-    Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
-}
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-Console.WriteLine("percorrendo o array com foreach: ");
-foreach (string item in listaString)
-{
-    int contador_foreach = 0;
-    Console.WriteLine($"Posição N° {contador_foreach} - {item}");
-    contador_foreach ++;
-}
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+
+
+// Console.WriteLine("percorrendo o array com o for:");
+// for (int contador = 0; contador < listaString.Count; contador ++)
+// {
+//     Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
+// }
+
+// Console.WriteLine("percorrendo o array com foreach: ");
+// foreach (string item in listaString)
+// {
+//     int contador_foreach = 0;
+//     Console.WriteLine($"Posição N° {contador_foreach} - {item}");
+//     contador_foreach ++;
+// }
 
 
 
