@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj": {}
+    "c:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj": {
+    "c:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj",
+        "projectUniqueName": "c:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj",
         "projectName": "C#_DIO",
-        "projectPath": "C:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj",
+        "projectPath": "c:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\C#_DIO.csproj",
         "packagesPath": "C:\\Users\\Alice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\obj\\",
+        "outputPath": "c:\\Users\\Alice\\Desktop\\programação\\C#_DIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alice\\AppData\\Roaming\\NuGet\\NuGet.Config"
