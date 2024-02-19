@@ -4,6 +4,28 @@ using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using C__DIO;
 
+int[] array_inteiros = new int[3];
+
+array_inteiros[0] = 72;
+array_inteiros [1] = 64;
+array_inteiros [2] = 50;
+
+
+Console.WriteLine("percorrendo o array com o for:");
+for (int contador = 0; contador < array_inteiros.Length; contador ++)
+{
+    Console.WriteLine($"Posição N° {contador} - {array_inteiros[contador]}");
+}
+
+
+Console.WriteLine("percorrendo o array com foreach: ");
+
+int contador_foreach = 0;
+foreach (int valor in array_inteiros)
+{
+    Console.WriteLine($"Posição N° {contador_foreach} - {valor}");
+    contador_foreach ++;
+}
 
 
 
